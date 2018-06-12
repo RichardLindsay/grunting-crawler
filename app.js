@@ -44,6 +44,7 @@ app.get('/on_tap', function(req, res) {
   });
 })
 
-var server = app.listen(3000, function () {
+var port = process.env.PORT || 8080;
+var server = app.listen(port, function () {
   console.log("app running on port.", server.address().port);
 });
