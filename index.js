@@ -4,23 +4,14 @@ const fs = require('fs');
 
 const scraper = new xray();
 
-const new_beers = scraper
-const on_tap_links = scraper
-const on_tap_link = scraper
-
+const new_beers = scraper, on_tap_links = scraper, on_tap_link = scraper
 var taps = []
 
-
-
 new_beers('https://gruntinggrowler.com/the-beer/?orderby=date', '.product', [{
-  title: 'h2',
-  brewery: '.woocommerce-product-details__short-description px',
+  name: 'h2',
   image: 'img@src',
   price: '.amount'
 }]).write('new_beers.json');
-
-// const on_tap_urls = document.querySelectorAll('a[title="CLICK & COLLECT"]');
-// console.log(on_tap_urls);
 
 on_tap_links('https://gruntinggrowler.com/the-beer/?orderby=price-desc', '.product_cat-draught-beer', [{
   link: 'a@href'
@@ -28,7 +19,7 @@ on_tap_links('https://gruntinggrowler.com/the-beer/?orderby=price-desc', '.produ
 (function (err, links) {
   links.forEach((link) => {
     on_tap_link(link.link, '.summary', [{
-      title: 'h1',
+      name: 'h1',
       image: 'a@href',
       price: '.price'
     }])

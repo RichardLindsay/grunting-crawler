@@ -1,41 +1,26 @@
 [
 	{
-		"title": "CLOUDWATER – HELLES TETTNANGER",
-		"image": "https://gruntinggrowler.com/product/cloudwater-helles-tettnanger/#",
-		"price": "£2.55 – £15.99"
-	},
-	{
-		"title": "BURNT MILL / FUERST WIACEK – SOLAR LIGHT DIPA KEG",
+		"name": "BURNT MILL / FUERST WIACEK – SOLAR LIGHT DIPA KEG",
 		"image": "https://gruntinggrowler.com/product/burnt-mill-fuerst-wiacek-solar-light-dipa-keg/#",
 		"price": "£3.85 – £27.00"
 	},
 	{
-		"title": "PETRUS – SAISON DE PALE",
-		"image": "https://gruntinggrowler.com/product/petrus-saison-de-pale/#",
-		"price": "£3.75 – £19.98"
-	},
-	{
-		"title": "OUT OF TOWN – BRETTED GRAPEFRUIT DIPA",
-		"image": "https://gruntinggrowler.com/product/out-of-town-bretted-grapefruit-dipa/#",
-		"price": "£2.99 – £19.98"
-	},
-	{
-		"title": "BOON GEUZE SELECTION",
-		"image": "https://gruntinggrowler.com/product/boon-geuze-selection/#",
-		"price": "£3.99 – £27.98"
-	},
-	{
-		"title": "ALMASTY – DDH IPA",
+		"name": "ALMASTY – DDH IPA",
 		"image": "https://gruntinggrowler.com/product/almasty-ddh-ipa-2/#",
 		"price": "£2.25 – £15.98"
 	},
 	{
-		"title": "VERDANT / TRACK – TRUCKEE TABLE BEER",
+		"name": "BOON GEUZE SELECTION",
+		"image": "https://gruntinggrowler.com/product/boon-geuze-selection/#",
+		"price": "£3.99 – £27.98"
+	},
+	{
+		"name": "VERDANT / TRACK – TRUCKEE TABLE BEER",
 		"image": "https://gruntinggrowler.com/product/verdant-track-truckee-table-beer/#",
 		"price": "£1.95 – £13.98"
 	},
 	{
-		"title": "FIERCE BEER – IMPERIAL CAFE RACER",
+		"name": "FIERCE BEER – IMPERIAL CAFE RACER",
 		"image": "https://gruntinggrowler.com/product/fierce-beer-imperial-cafe-racer/#",
 		"price": "£3.30 – £19.98"
 	}
