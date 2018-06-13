@@ -24,7 +24,7 @@ app.get('/new_beers', function(req, res) {
 app.get('/on_tap', function(req, res) {
   var on_tap_links = xray('https://gruntinggrowler.com/the-beer/?orderby=price-desc', '.product_cat-draught-beer', [{
     link: 'a@href'
-  }]).paginate('.next@href')
+  }]).paginate('.next@href').limit(2)
   (function (err, links) {
     links.forEach((link) => {
       var on_tap_link = xray(link.link, '#primary', [{
